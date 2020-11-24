@@ -1,0 +1,44 @@
+
+<html>
+</head>
+<style>
+html { width: 100%; height:100%; overflow:hidden; }
+
+body { 
+	width: 100%;
+	height:100%;
+	font-family: 'Open Sans', sans-serif;
+	background: lightcyan;
+}
+
+</style>
+<title>Feedback System</title>
+</head>
+<body>
+<br><br><br><br>
+<center><h2>Enter student details</h2></center>
+
+<br><br>
+<center>
+<form method="post" action="/feedback/add.php">
+<table>
+<tr><td>USN:</td><td><input type="text" name="usn"></td></tr>
+<tr><td>Name:</td><td><input type="text" name="name"></td></tr>
+<tr><td>Branch:</td><td><input type="text" name="branch"></td></tr>
+<tr><td>Age:</td><td><input type="text" name="age"></td></tr>
+<tr><td>Batch:</td><td><input type="text" name="batch"></td></tr>
+<tr><td>Sem:</td><td><input type="text" name="sem"></td></tr>
+<tr><td>username:</td><td><input type="text" name="username"></td></tr>
+<tr><td>Password:</td><td><input type="text" name="password"></td></tr>
+
+</table><br><br>
+<center><input type="submit" name="submit" value="Add student"></center>
+
+
+
+</form>
+
+
+</center>
+</body>
+</html>
